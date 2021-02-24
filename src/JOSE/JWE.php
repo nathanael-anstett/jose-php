@@ -1,8 +1,8 @@
 <?php
 
-use phpseclib\Crypt\RSA;
-use phpseclib\Crypt\AES;
-use phpseclib\Crypt\Random;
+use phpseclib3\Crypt\RSA;
+use phpseclib3\Crypt\AES;
+use phpseclib3\Crypt\Random;
 
 class JOSE_JWE extends JOSE_JWT {
     var $plain_text;
