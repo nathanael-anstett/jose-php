@@ -1,8 +1,8 @@
 <?php
 
-use phpseclib\Crypt\RSA;
-use phpseclib\Math\BigInteger;
-use phpseclib\Crypt\Hash;
+use phpseclib3\Crypt\RSA;
+use phpseclib3\Math\BigInteger;
+use phpseclib3\Crypt\Hash;
 
 class JOSE_JWK {
     var $components = array();
