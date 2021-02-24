@@ -1,6 +1,6 @@
 <?php
 
-use phpseclib\Crypt\RSA;
+use phpseclib3\Crypt\RSA;
 
 class JOSE_JWS extends JOSE_JWT {
     function __construct($jwt) {
